@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClassLibrary.Classes.Entities
 {
-    public abstract class Category : ICategory
+    public class Category : ICategory
     {
         private string categoryName;
 
@@ -14,6 +14,9 @@ namespace ClassLibrary.Classes.Entities
             get { return categoryName; }
             set { categoryName = value; }
         }
-
+        public Category(string name)
+        {
+            this.categoryName = name; 
+        }
     }
 }

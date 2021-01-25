@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    public abstract class Task : ITask
+    public class Task : ITask
     {
         private string taskName;
         private ICategory categoryName;
@@ -19,6 +19,11 @@ namespace ClassLibrary
         {
             get { return categoryName; }
             set { categoryName = value; }
+        }
+        public Task(string name, ICategory category)
+        {
+            this.categoryName = category;
+            this.taskName = name;
         }
     }
 }
