@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ClassLibrary.Classes.Entities;
+using ClassLibrary.Services;
 
 namespace ToDoList_No_DBS
 {
@@ -23,6 +25,7 @@ namespace ToDoList_No_DBS
         public MainWindow()
         {
             WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
+            TaskServices TS = new TaskServices();
             InitializeComponent();
         }
     }
