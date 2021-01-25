@@ -6,8 +6,5 @@
         xmlns:local="clr-namespace:ToDoList_No_DBS"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Test GitHub Connection" HorizontalAlignment="Center" Margin="0,196,0,0" VerticalAlignment="Top"/>
-
-    </Grid>
+    <Grid/>
 </Window>
