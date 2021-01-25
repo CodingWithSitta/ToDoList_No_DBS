@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ToDoList_No_DBS/1.0.0": {
+        "runtime": {
+          "ToDoList_No_DBS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToDoList_No_DBS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
