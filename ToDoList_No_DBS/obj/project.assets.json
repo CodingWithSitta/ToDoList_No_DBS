@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbmae\\source\\repos\\ToDoList_No_DBS2\\ToDoList_No_DBS\\ToDoList_No_DBS\\ToDoList_No_DBS.csproj",
+      "projectUniqueName": "C:\\Users\\jbmae\\Source\\Repos\\ToDoList_No_DBS\\ToDoList_No_DBS\\ToDoList_No_DBS.csproj",
       "projectName": "ToDoList_No_DBS",
-      "projectPath": "C:\\Users\\jbmae\\source\\repos\\ToDoList_No_DBS2\\ToDoList_No_DBS\\ToDoList_No_DBS\\ToDoList_No_DBS.csproj",
+      "projectPath": "C:\\Users\\jbmae\\Source\\Repos\\ToDoList_No_DBS\\ToDoList_No_DBS\\ToDoList_No_DBS.csproj",
       "packagesPath": "C:\\Users\\jbmae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbmae\\source\\repos\\ToDoList_No_DBS2\\ToDoList_No_DBS\\ToDoList_No_DBS\\obj\\",
+      "outputPath": "C:\\Users\\jbmae\\Source\\Repos\\ToDoList_No_DBS\\ToDoList_No_DBS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
