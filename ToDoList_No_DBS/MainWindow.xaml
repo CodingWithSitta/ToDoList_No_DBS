@@ -4,7 +4,30 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoList_No_DBS"
+        ResizeMode="NoResize"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid/>
+        Title="MainWindow" Height="1000" Width="1600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="480*"/>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="277*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="lstToDo" Margin="216,104,358,145"/>
+        <ListBox x:Name="lstInProcess" Margin="607,104,53,145" Grid.ColumnSpan="2"/>
+        <ListBox x:Name="lstTasksDone" Margin="38,104,216,145" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="607,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" TextAlignment="Center" FontSize="20" Grid.ColumnSpan="2" Height="27"><Run Language="fr-be" Text="In process"/><LineBreak/><Run Language="fr-be"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="38,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" TextAlignment="Center" FontSize="20" Grid.Column="1" Grid.ColumnSpan="2"><Run Text="Tasks "/><Run Language="fr-be" Text="d"/><Run Text="one"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="216,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" TextAlignment="Center" FontSize="20" Height="27"><Run Language="fr-be" Text="To do"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="216,848,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37"><Run Text="Count"/><Run Language="fr-be" Text=":"/></TextBlock>
+        <Label x:Name="CToDo" Content="Label" HorizontalAlignment="Left" Margin="258,843,0,0" VerticalAlignment="Top" Width="344"/>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="607,850,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37"><Run Text="Count"/><Run Language="fr-be" Text=":"/></TextBlock>
+        <Label x:Name="CInProcess" Content="Label" HorizontalAlignment="Left" Margin="649,845,0,0" VerticalAlignment="Top" Width="344" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="38,848,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37" Grid.Column="1"><Run Text="Count"/><Run Language="fr-be" Text=":"/></TextBlock>
+        <Label x:Name="CTasksDone" Content="Label" HorizontalAlignment="Left" Margin="80,843,0,0" VerticalAlignment="Top" Width="344" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnCreateTask" Content="Create task" HorizontalAlignment="Left" Margin="45,169,0,0" VerticalAlignment="Top" Height="66" Width="125" FontWeight="Bold" FontSize="20" Background="#FF16F100"/>
+        <Button x:Name="btnDeleteTask" Content="Delete task" HorizontalAlignment="Left" Margin="45,264,0,0" VerticalAlignment="Top" Height="66" Width="125" FontWeight="Bold" FontSize="20" Background="#FFF70000"/>
+        <ListBox x:Name="lstLegenda" Margin="45,512,790,307"/>
+        <TextBlock HorizontalAlignment="Left" Margin="77,486,0,0" Text="Legenda" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
+    </Grid>
 </Window>

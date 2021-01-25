@@ -22,6 +22,7 @@ namespace ToDoList_No_DBS
     {
         public MainWindow()
         {
+            WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
             InitializeComponent();
         }
     }
