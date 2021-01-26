@@ -8,22 +8,24 @@ namespace ClassLibrary
     public class Task : ITask
     {
         private string taskName;
-        private ICategory categoryName;
+        private string categoryName;
 
         public string TaskName
         {
             get { return taskName; }
             set { taskName = value; }
         }
-        public ICategory CategoryName
+        public string CategoryName
         {
             get { return categoryName; }
             set { categoryName = value; }
         }
-        public Task(string name, ICategory category)
+        public Task()
+        { }
+        public Task(string name, string category)
         {
-            this.categoryName = category;
-            this.taskName = name;
+            taskName = name;
+            categoryName = category;
         }
     }
 }
