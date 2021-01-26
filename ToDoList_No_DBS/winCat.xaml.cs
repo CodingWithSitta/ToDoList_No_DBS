@@ -13,9 +13,6 @@ using System.Windows.Shapes;
 
 namespace ToDoList_No_DBS
 {
-    /// <summary>
-    /// Interaction logic for winGroups.xaml
-    /// </summary>
     public partial class winCat : Window
     {
         public winCat()

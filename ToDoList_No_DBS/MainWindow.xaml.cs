@@ -31,6 +31,12 @@ namespace ToDoList_No_DBS
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
                 lstToDo.ItemsSource = ts.GetTasks();
-        }   
+        }
+
+        private void btnCreateTask_Click(object sender, RoutedEventArgs e)
+        {
+            winCat winCat = new winCat();
+            winCat.ShowDialog();
+        }
     }
 }

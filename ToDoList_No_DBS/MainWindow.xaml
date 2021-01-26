@@ -26,7 +26,7 @@
         <Label x:Name="CInProcess" Content="Label" HorizontalAlignment="Left" Margin="649,845,0,0" VerticalAlignment="Top" Width="344" Grid.ColumnSpan="2"/>
         <TextBlock HorizontalAlignment="Left" Height="21" Margin="38,848,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37" Grid.Column="1"><Run Text="Count"/><Run Language="fr-be" Text=":"/></TextBlock>
         <Label x:Name="CTasksDone" Content="Label" HorizontalAlignment="Left" Margin="80,843,0,0" VerticalAlignment="Top" Width="344" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <Button x:Name="btnCreateTask" Content="Create task" HorizontalAlignment="Left" Margin="45,169,0,0" VerticalAlignment="Top" Height="66" Width="125" FontWeight="Bold" FontSize="20" Background="#FF16F100"/>
+        <Button x:Name="btnCreateTask" Content="Create task" HorizontalAlignment="Left" Margin="45,169,0,0" VerticalAlignment="Top" Height="66" Width="125" FontWeight="Bold" FontSize="20" Background="#FF16F100" Click="btnCreateTask_Click"/>
         <Button x:Name="btnDeleteTask" Content="Delete task" HorizontalAlignment="Left" Margin="45,264,0,0" VerticalAlignment="Top" Height="66" Width="125" FontWeight="Bold" FontSize="20" Background="#FFF70000"/>
         <ListBox x:Name="lstLegenda" Margin="45,512,790,307"/>
         <TextBlock HorizontalAlignment="Left" Margin="77,486,0,0" Text="Legenda" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
