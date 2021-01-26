@@ -27,5 +27,10 @@ namespace ClassLibrary
             taskName = name;
             categoryName = category;
         }
+
+        public override string ToString()
+        {
+            return $"{TaskName} - {CategoryName}";
+        }
     }
 }
